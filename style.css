@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  font-family: Arial, sans-serif;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin: 40px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 20%;
+  border: 10px solid black;
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pressed {
+  background-color: grey;
+  box-shadow: 0 0 20px white;
+}
+
+.game-over {
+  background-color: red;
+}
